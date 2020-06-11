@@ -1,0 +1,54 @@
+/*
+topBar sets the standard of what the very top section should be.
+The bar's background color is set to dark blue with the Bahnschrift font (color white) for all text elements inside topBar
+*/
+.topBar {
+  padding: 10px;
+  padding-left: 60px;
+  background: #2A5170;
+  font-family: Bahnschrift;
+  color: white;
+}
+
+.siteTitle {
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+}
+
+.topNavigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    float: right;
+}
+
+.topNavigation a {
+    text-decoration: none;
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+}
+
+.topNavigation a:hover {
+    background-color: #2A455A;
+    color: white;
+}
+
+.topNavigation a:active {
+    color: #2C98F0;
+}
+
+.header {
+    padding: 60px;
+    background: #2C98F0;
+    color: white;
+}
+
+.avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
