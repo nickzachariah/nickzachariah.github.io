@@ -50,10 +50,11 @@
     text-align: center;
 }
 
-.avatar {
+.picture {
     margin-top: 5%;
     width: 15vw;
     border-radius: 50%;
+    border: 1vw solid #2A5170;
 }
 
 #name {
