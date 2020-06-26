@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 #topBar {
     width: 100%;
     height: 5vw;
@@ -24,7 +28,7 @@
 }
 
 .topNavItem {
-    font-size: 2vw;
+    font-size: 1.5vw;
     float: left;
     font-family: Bahnschrift;
     color: white;
@@ -75,4 +79,48 @@
     font-family: Bahnschrift;
     color: white;
     margin-top: 5%;
+}
+
+#wip {
+    background-color: red;
+    padding: 1vw;
+    font-family: Bahnschrift;
+}
+
+section {
+    font-family: Bahnschrift;
+}
+
+section:nth-child(even) {
+    background: #eaf1f1;
+}
+
+#aboutMe {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+#education {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+#experience {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+#interests {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+#contactMe {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
 }
