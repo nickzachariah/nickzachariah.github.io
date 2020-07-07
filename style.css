@@ -96,31 +96,69 @@ section:nth-child(even) {
 }
 
 #aboutMe {
-    height: 50vh;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    height: 20%;
+    margin-bottom: 3%;
+}
+
+#aboutMeText {
+    text-align: center;
+    font-size: 2em;
+    padding-left: 1vh;
+    padding-right: 1vh;
 }
 
 #education {
-    height: 50vh;
-    display: flex;
-    justify-content: center;
+    height: 20%;
+    margin-bottom: 3%;
+}
+
+#educationHeader {
+    font-size: 2em;
+    text-align: center;
+}
+
+#towsonText {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#towsonSeal {
+    display: block;
+    width: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cecilText {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#cecilSeal {
+    display: block;
+    width: 10vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #experience {
+    display: grid;
     height: 50vh;
-    display: flex;
-    justify-content: center;
 }
 
 #interests {
+    display: grid;
     height: 50vh;
-    display: flex;
-    justify-content: center;
 }
 
 #contactMe {
+    display: grid;
     height: 50vh;
-    display: flex;
-    justify-content: center;
 }
+
+.sectionHeader {
+    font-size: 2em;
+    text-align: center;
+}
+
